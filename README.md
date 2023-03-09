@@ -11,13 +11,13 @@ Users are encouraged to check the Fraunhofer website for additional applications
 
 This library supports the devices listet below. The list of devices will be extended in the future.
 ### Systems
-* Arduino systems with ATmega328p processor (8MHz and 16MHz)
+* Arduino systems with ATmega328p processor (8MHz and 16MHz); 
 Please note: The oscillator frequency of the ATmega328p crystal oscillator defines the exact transmission rate. Sometimes
 the maximum frequency offset of the crystal oscillator is too high. In this case the data cannot be received or it is
 received with reduced robustness. Please ensure that you use a good oscillator with a maximum offset of 20PPM.
 
 ### Transceiver Chipsets
-* HopeRF RFN69w
+* HopeRF RFM69w
 * HopeRF RFM69hw
 
 
